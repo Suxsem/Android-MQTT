@@ -422,7 +422,7 @@ public class MqttService extends Service {
 					 */
                         if (client != null && client.isConnected())
                             disconnect();
-                        getLooper().quit();
+                        //getLooper().quit();
                         break;
                     }
                     case CONNECT: {
